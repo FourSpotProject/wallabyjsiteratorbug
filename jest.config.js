@@ -4,7 +4,6 @@ module.exports = {
     "^.+\\.tsx?$": "ts-jest"
   },
   coveragePathIgnorePatterns: [
-    "<rootDir>/src/.+.spec.ts$",
     "<rootDir>/node_modules/"
   ]
 };
